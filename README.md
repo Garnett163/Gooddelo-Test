@@ -18,8 +18,4 @@ npm install или npm i
 
 ```
 npm run start
-
-
-
-
 ```
