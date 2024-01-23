@@ -1,0 +1,21 @@
+.home {
+  max-width: 1980px;
+  margin: 0 auto;
+  padding: 20px 40px 40px 25px;
+}
+
+.home__title {
+  text-align: center;
+  font-family: Inter;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 1.27em;
+}
+
+.home__container {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}

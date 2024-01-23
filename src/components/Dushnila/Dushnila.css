@@ -1,0 +1,89 @@
+.dushnila {
+  padding: 60px 60px;
+  display: flex;
+  flex-direction: column;
+  min-width: 593px;
+  max-height: 493px;
+  background-color: #7affa7;
+  border-radius: 20px;
+}
+
+.dushnila_active {
+  background: #ff8a7a;
+}
+
+.dushnila__title {
+  max-width: 593px;
+  font-family: Inter;
+  font-size: 89px;
+  font-weight: 500;
+  line-height: 89px;
+  letter-spacing: -0.06em;
+}
+
+.dushnila__text {
+  padding-top: 176px;
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+}
+
+.dushnila__box-flex {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dushnila__history {
+  padding: 55px 20px 35px 20px;
+  max-width: 336px;
+  background-color: #000000;
+  border-radius: 20px;
+}
+
+.dushnila__count {
+  color: #fff;
+  font-family: Inter;
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: -0.06em;
+  text-align: left;
+}
+
+.dushnila__btn-history {
+  padding: 20px;
+  margin-top: 125px;
+  border: 1px solid #fff;
+  width: 296px;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: -0.06em;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.dushnila__btn-history::after {
+  width: 28px;
+  height: 28px;
+  background: url('/src/images/arrow-icon.svg') no-repeat center center;
+  content: '';
+}
+
+.dushnila__btn-history:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.dushnila__btn-history:hover::after {
+  background: url('/src/images/arrow-icon-white.svg') no-repeat center center;
+}

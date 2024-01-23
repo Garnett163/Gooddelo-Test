@@ -1,0 +1,19 @@
+.logo {
+  min-width: 336px;
+  min-height: 336px;
+  border: 1px solid #000;
+  position: relative;
+  border-radius: 10px;
+}
+
+.logo::after {
+  content: '';
+  display: block;
+  width: 318px;
+  height: 307px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: url('/src/images/logo.png') no-repeat;
+  background-size: cover;
+}
